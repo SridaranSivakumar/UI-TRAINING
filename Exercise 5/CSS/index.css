@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.right-section{
+    width: 31.5%;
+    float: right;
+    margin-right: 8%;
+    
+
+}
+.left-section{
+    width: 50%;
+    float: left;
+    margin-left: 9%;
+  
+}
+.leftFLoat {
+    border-color: black;
+    border: 1px solid;
+    margin-bottom: 3%;
+    background-color: #f6f6f6;
+}
+
+
+.rightFloat {
+    border: 1px solid; 
+    margin-bottom: 3%;
+    background-color: #f6f6f6;
+
+}
+
+.TelevisionHeader {
+    background-color: #145f94;
+    height: 82px;
+    margin-bottom: 35px;
+}
+
+.header {
+
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+.Channel {
+    padding-left: 20px;
+    padding-top: 16px;
+    font-size: 19px;
+    color: white;
+}
+
+.TelevisionName {
+    height: 52px;
+    background-color: #145f94;
+}
+
+
+.TelevisionDescription {
+    letter-spacing: .2px;
+    padding: 24px;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 786px) {
+    .left-section, .right-section{
+        width: 100%;
+        clear: both;
+        margin: 20px 0;
+    } 
+    .WholeContainer{
+        margin: 20px;
+    }
+}
