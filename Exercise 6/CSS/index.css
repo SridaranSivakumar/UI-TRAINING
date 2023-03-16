@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2a2b30;
+    z-index: 4;
+}
+
+div ul li {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.menu {
+    display: inline-block;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    width: 255px;
+    height: 177px;
+    right: 0;
+    position: absolute;
+    top: 80px;
+    line-height: 40px;
+    background-color: white;
+    font-size: 20px;
+    display:none;
+    z-index: 1;
+    border: none;
+    
+}
+
+.iconlayers:hover .menu {
+    display: block;
+    
+}
+
+.iconlayers{
+   
+    position: absolute;
+    top: 64px;
+    left: 88.8%;
+    width: 71px;
+    height: 71px;
+    padding-bottom: 20px;
+    
+    
+}
+.icon{
+    border-color: black;
+    border-radius: 50px;
+    border-style: solid;
+    width: 25px;
+    height: 25px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    border: none;
+}
+
+
+.Products {
+    display: block;
+    width: 85%;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 46px auto;
+    margin-bottom: 50px;
+}
+
+.ProductInfo {
+    display: inline-block;
+    width: 23.1%;
+    margin-bottom: 56px;
+
+}
+
+.logo {
+    
+    width: 30%;
+    margin-left: 135px;
+    margin-top: 64px;
+}
+
+.logoimage {
+    width: 188px;
+    height: 73px;
+}
+
+.image {
+    display: inline-block;
+    padding-left: 75px;
+    padding-top: 93px;
+    padding-bottom: 85px;
+    width: 177px;
+    height: 237px;
+}
+
+.ProductInfo1 {
+    display: inline-block;
+    width: 23%;
+    margin-left: 33px;
+    margin-bottom: 56px;
+}
+
+.innerBlock {
+    width: 319px;
+    height: 404px;
+    background-color: #24252a;
+
+}
+
+.ItemName {
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.Price {
+    padding-top: 10px;
+    color: #aaaaaa;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.cart {
+    width: 141px;
+    height: 38px;
+    font-size: 20px;
+    background-color: #2a2b30;
+    color: #aaaaaa;
+    border-color: aaaaaa;
+    border-style: solid;
+}
+
+.Fashion-Footer {
+    
+    width: 100%;
+    height: 95px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+}
+
+.circle {
+border-color: black;
+border-radius: 50px;
+border-style: solid;
+width: 26px;
+height: 26px;
+padding: 20px;
+margin-left: 230px;
+margin-top: -35px;
+position: absolute;
+background-color: #87b181;
+font-size: 25px;
+text-align: center;
+border: none;
+}
+
+.star{
+    font-size:200%;
+    color:#87b181;
+    position: absolute;
+    margin-left: 260px;
+}
+.fotter-content{
+    display: block;
+     text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-left: 20px; 
+    list-style-type: none;
+    text-align: center;
+}
+.layer{
+    position: relative;
+    display: none;
+}
+a{
+    display: inline-block;
+    text-decoration : none ;
+    width: 255px;
+}
+ .lists{
+    display: inline-block;
+    padding-left: 50px;
+   font-size: 25px; 
+}
+.menu a:hover {
+    color: white;
+    background: lightgrey;
+   
+}
+.menu a{
+    color: black;
+}
