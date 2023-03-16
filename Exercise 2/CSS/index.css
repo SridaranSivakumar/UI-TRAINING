@@ -1,0 +1,110 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Enchantingheader{
+    background-color:#410a3c;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    height: 85px;
+}
+
+
+.touristPlaces {
+    display: block;
+    margin: 60px auto ;
+    width: 90%;
+    box-sizing: border-box;
+    align-items:center ;
+    padding-left: 50px;
+  
+}
+
+.placeInfo{
+    display: inline-block;
+    display: inline-block;
+    width: 31%;
+    margin-right: 1.5%;
+    margin-top: 20px;
+   box-sizing: border-box;
+   margin-bottom: 50px;
+   
+   
+}
+.image{
+    display: inline-block;
+    width: 100%;
+}
+.Description{
+    font-size: 17px;
+    font-weight: 370;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    letter-spacing: .6px;
+}
+.FamousQuote{
+    font-weight: 300;
+    font-size: 32px;
+    padding-top: 20px;
+   
+}
+.motoTitle{
+    font-weight: 300;
+    font-size: 70px;
+    padding-top: 20px;
+    text-align: center;
+    color: #7A1655;
+}
+.placeName{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 10px;
+   
+}
+button{
+   font-size: 18px;
+    width: 154;
+    height: 50;
+    color: white;
+    border:none;
+    background-color: #7a1054;
+    font-weight: 350;
+ }
+ .motodescription{
+    padding-top: 30px ;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    box-sizing: border-box;
+    line-height: 50px;
+ }
+ .Enchantingfooter{
+    background-color: #7a1054;
+    color: white;
+    height: 100px;
+    padding-left: 137px;
+    
+    
+ }
+ #copyright{
+    font-size: 20px;
+    padding-top: 30px;
+ }
+ #photosource{
+    font-size: 18px;
+   
+    font-weight: 300;
+ }
+ .moto{
+     margin-top: 90px;
+     width: 75%;
+     margin-left: 230px;
+     margin-bottom: 60px;
+ }
