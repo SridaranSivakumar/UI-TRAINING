@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>JavaScript Basics</title>
+</head>
+<body>
+    <script>
+        //To print 0 to 100
+       for(let i=0;i<=100;i++){
+            console.log(i);
+       }
+       //To find the date
+       let date=new Date();
+       var day=date.getDate();
+       var month=date.getMonth()+1;
+       var year=date.getFullYear();
+       //Celcius to Farenheit
+       console.log(day.toString()+"/"+month.toString()+"/"+year.toString());
+       function celciusTOFarenheit(celcius){
+        farenheit=(celcius*(9/5))+32;
+       }
+       celciusTOFarenheit(40);
+       console.log(farenheit)
+       //TO print the average of an array
+       function averageOfArray(arr){
+        var sum=0;
+           for(let val of arr){
+             sum=sum+val;
+           }
+           avg=sum/arr.length;
+           return avg;
+       }
+       var array=[10,20,30,40];
+       console.log("Average : "+averageOfArray(array))
+       //To reverse an string
+       var string="java script";
+       var splitstring=string.split("");
+       var reverse=splitstring.reverse();
+       var reversedString=reverse.join("");
+       console.log(reversedString);
+    </script>
+</body>
+</html>
