@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>JavaScript Basics</title>
+</head>
+<body>
+    <script>
+       // calculator object
+       var calculator={
+       //Addition
+        Add : function(num1,num2){
+               return num1+num2;
+        },
+        //Substraction
+        Subtract : function(num1,num2){
+               return num1-num2;
+        },
+        //Multiplication
+        Multiply : function(num1,num2){
+               return num1*num2;
+        },
+        //Division
+        Division : function(num1,num2){
+               return num1/num2;
+        }
+       }
+       //calling and printing method
+       console.log("Addition : "+calculator.Add(20,30));
+       console.log("Subtraction : "+calculator.Subtract(30,10));
+       console.log("Multiply : "+calculator.Multiply(20,30));
+       console.log("Division : "+calculator.Division(60,30));
+    </script>
+</body>
+</html>
