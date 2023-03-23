@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.background-image {
+    background-size: cover;
+    filter: blur(2px);
+    background-color: black;
+
+}
+
+.heading {
+    position: absolute;
+    left: 38%;
+    top: 6%;
+    font-size: 87px;
+    color: white;
+    font-weight: 500;
+}
+
+.start-year {
+    color: white;
+    transform: rotate(-90deg);
+    font-size: 50px;
+    position: absolute;
+    right: -90px;
+    top: 20%;
+}
+
+.year {
+    font-size: 100px;
+    font-weight: 600;
+
+}
+
+.message {
+    position: absolute;
+    font-size: 113px;
+    bottom: 70px;
+    left: 37%;
+    color: white;
+    font-weight: 600;
+
+}
+
+.sidebar {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    justify-content: center;
+    top: 73px;
+    cursor: pointer;
+
+}
+
+.sidebar-symbol {
+    font-size: 40px;
+    color: white;
+    padding-left: 31px;
+    padding-top: 30px;
+}
+
+.sidebar-content {
+    position: absolute;
+    top: 150px;
+    left: -270px;
+    width: 15%;
+    height: 72%;
+    background-color: black;
+    border-radius: 0px 25px 25px 0px;
+    transition: transform 2s ease-in;
+
+}
+
+.hat-logo {
+    padding-left: 75px;
+    padding-top: 42px;
+    margin-bottom: 30px;
+}
+
+.content {
+    color: white;
+    list-style-type: none;
+    padding: 10px 30px 20px 75px;
+    line-height: 40px;
+
+}
+
+.sidebar:hover+.sidebar-content {
+    transform: translateX(270px);
+
+}
+
+.sidebar-content:hover {
+    transform: translateX(270px);
+}
+
+.icon {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    font-size: 35px;
+    padding-left: 20px;
+}
+
+.content li {
+    padding-right: 2px;
+}
+
+.content>li:hover {
+    color: white;
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.message-content {
+    font-size: 140px;
+    font-weight: 600;
+}
