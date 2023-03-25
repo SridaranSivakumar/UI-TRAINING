@@ -1,0 +1,193 @@
+<html>
+
+<head>
+    <title>MathKids</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- start of header -->
+    <header>
+        <div class="mathkids-Header">
+            <p class="startHeading"><strong>MATH KIDS</strong> </p>
+            <P class="endHeading"><strong>KIDS LEARNING APP</strong> </p>
+        </div>
+    </header>
+    <!-- End of header -->
+    <!-- Start of start or home page -->
+    <section>
+        <div class="startPage">
+            <div class="question">
+                <p>1. Choose a shape</p>
+            </div>
+            <div class="shape-container">
+                <div class="circle">
+                    <div class="circleSymbol">
+                        <i class="fa-sharp fa-regular fa-check"></i>
+                    </div>
+                </div>
+                <div class="Triangle">
+                    <div class="TriangleSymbol">
+                        <i class="fa-sharp fa-regular fa-check"></i>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="squareSymbol">
+                        <i class="fa-sharp fa-regular fa-check"></i>
+                    </div>
+                </div>
+            </div>
+            <button class="next">Next</button>
+        </div>
+        <!-- End of start or home page -->
+        <!-- Start of mid page -->
+        <div class="midPage">
+            <div class="calculateCircle">
+                <div class="calCircle">
+                    <p>2.Enter radius</p>
+                </div>
+                <div class="inputBox"><input type="number" id="input" size="100"
+                        style="color: white;font-size: 50px;" />
+                </div>
+                <button class="circleBtn">CALCULATE</button>
+            </div>
+            <div class="calculateTriangle">
+                <div class="calTriangle">
+                    <p>2.Enter Side (Base & Height)</p>
+                </div>
+                <div class="inputBox"><input type="number" id="tinput" size="100"
+                        style="color: white;font-size: 50px;" />
+                </div>
+                <button class="triangleBtn">CALCULATE</button>
+            </div>
+            <div class="calculateSquare">
+                <div class="calSquare">
+                    <p>2.Enter Side</p>
+                </div>
+                <div class="inputBox"><input type="number" id="sinput" size="100"
+                        style="color: white;font-size: 50px;" />
+                </div>
+                <button class="squareBtn">CALCULATE</button>
+            </div>
+        </div>
+        <!-- End of mid page -->
+        <!-- Start of End page -->
+        <div class="endPage">
+            <div class="circleFormula">
+                <div class="circle"></div>
+                <div class="shape">
+                    <p>Circle</p>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">RADIUS</div>
+                        <div class="column2" style="background-color: #455d7e;">r</div>
+                        <div class="column2">
+                            <p class="Radius"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">AREA</div>
+                        <div class="column2" style="background-color: #455d7e;">r*r</div>
+                        <div class="column2">
+                            <p class="Area"> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">PERIMETER</div>
+                        <div class="column2" style="background-color: #455d7e;">2πr</div>
+                        <div class="column2">
+                            <p class="Perimeter"> </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="circleStartAgain">START AGAIN</button>
+            </div>
+            <div class="triangleFormula">
+                <div class="Triangle"></div>
+                <div class="shape">
+                    <p>TRIANGLE</p>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">SIDE</div>
+                        <div class="column2" style="background-color: #455d7e;">s</div>
+                        <div class="column2">
+                            <p class="tSide"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">AREA</div>
+                        <div class="column2" style="background-color: #455d7e;">0.433*s*s</div>
+                        <div class="column2">
+                            <p class="tArea"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">PERIMETER</div>
+                        <div class="column2" style="background-color: #455d7e;">3*s</div>
+                        <div class="column2">
+                            <p class="tPerimeter"></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="triangleStartAgain">START AGAIN</button>
+                </div>
+            </div>
+            <div class="squareFormula">
+                <div class="square"></div>
+                <div class="shape">
+                    <p>Square</p>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">SIDE</div>
+                        <div class="column2" style="background-color: grey;">s</div>
+                        <div class="column2">
+                            <p class="sSide"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">AREA</div>
+                        <div class="column2" style="background-color: grey;">s*s</div>
+                        <div class="column2">
+                            <p class="sArea"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculationBox">
+                    <div class="row">
+                        <div class="column1">PERIMETER</div>
+                        <div class="column2" style="background-color: grey;">4*s</div>
+                        <div class="column2">
+                            <p class="sPerimeter"></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="squareStartAgain">START AGAIN</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of endpage -->
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
