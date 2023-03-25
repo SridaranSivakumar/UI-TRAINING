@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.friendsContainer {
+    margin-top: 70px;
+    margin-left: 80px;
+    max-width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* background-color: greenyellow; */
+}
+.column > div:first-child{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.column > div:nth-child(2){
+    font-weight: 100;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.card{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+     width: 504px;
+     height: 106px;
+    margin-bottom: 15px;
+    background-color: #4d67b4;
+}
+img{
+    width: 75px;
+   height: 75px;
+   border-radius: 50px;
+   margin-top: 12px;
+   margin-left: 12px;
+}
+.friendsHeader{
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #3b1c67;
+}
+.friendsHeader p{
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+}
