@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-mail {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 7%;
+  margin-top: 50px;
+  font-size: 28px;
+  color: white;
+}
+.header-mail a {
+  text-decoration: none;
+  color: white;
+}
+
+.shruthibhatt-heading {
+  margin-top: 115px;
+  display: flex;
+  justify-content: center;
+  font-size: 175px;
+  color: white;
+  font-weight: 700;
+}
+
+#header {
+  font-weight: 100;
+}
+
+.sub-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: white;
+}
+
+#para {
+  color: #4b90e2;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  gap: 30px;
+  max-width: 95%;
+  margin-left: 2.5%;
+}
+
+.image {
+  width: 32%;
+}
+
+.brand-names {
+  margin-top: 150px;
+  display: flex;
+  font-size: 60px;
+  color: white;
+  justify-content: center;
+}
+
+.green-text {
+  color: lightgreen;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.image-brand {
+  height: 60px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  margin-top: 330px;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  margin-top: 120px;
+  color: white;
+  justify-content: center;
+  font-size: 42px;
+  column-gap: 20px;
+}
+
+.round {
+  display: flex;
+  border-color: white;
+  border-radius: 50px;
+  border-style: solid;
+  width: 65px;
+  height: 65px;
+  justify-content: center;
+  padding-top: 9px;
+}
+
+.phrase {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 10%;
+  font-size: 25px;
+}
+
+.break-line {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 18% 33% 10% 33%;
+}
+
+.small {
+  height: 1px;
+  width: 20%;
+  border: solid white;
+}
+
+.big {
+  height: 1px;
+  width: 60%;
+  border: solid white;
+}
+
+@media only screen and (max-width: 576px) {
+  .image {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .shruthibhatt-heading {
+    font-size: 80px;
+  }
+  .sub-heading {
+    font-size: 20px;
+  }
+  .brand-names {
+    margin-top: 90px;
+    font-size: 40px;
+  }
+  .image-brand {
+    width: 30%;
+  }
+  .icon {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .round {
+    width: 57px;
+    height: 57px;
+    padding: 13px;
+    margin-left: 24px;
+  }
+  .header-mail {
+    position: absolute;
+    top: 25%;
+    font-size: 15px;
+    left: 200px;
+  }
+  .line {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+  }
+  .break-line {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 147px;
+    margin-top: 42%;
+  }
+  .small {
+    height: 1px;
+    width: 15%;
+    border: solid white;
+  }
+  .big {
+    height: 1px;
+    width: 56%;
+    border: solid white;
+  }
+  .phrase {
+    font-size: 28px;
+    margin-bottom: 15%;
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
