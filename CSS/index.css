@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    flex-direction: row;
+    gap: 60%;
+    position: sticky;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.lastHeading {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-weight:100;
+}
+
+.flex>div:first-child {
+    padding-left: 15%;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    width: 95%;
+
+
+}
+
+.upcomingBlunder {
+    width: 18%;
+
+}
+
+video {
+    width: 100%;
+}
+
+.cols {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.subHeading {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.content {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.commentsHeading {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.reviewer {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.reviewerName {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.reviewercomment {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.poster {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.upcomingProjects {
+    margin-bottom: 10px;
+
+}
+
+.reviewerPhoto {
+    border-radius: 50px;
+    width: 50px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 55%;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+
+}
+
+.copyrights {
+    color: white;
+    padding-left: 270px;
+    padding-top: 25px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.topic {
+    color: white;
+    padding-top: 25px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.authorjpg{
+    border-radius: 50px;
+    width:30px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        margin: 2.5%;
+
+    }
+
+    .cols {
+        width: 100%;
+    }
+
+    .upcomingBlunder {
+        width: 100%;
+        background-color: bisque;
+    }
+  
+   .copyrights {
+            margin-left: -107px;
+        }
+        
+        
+    
+
+
+}
