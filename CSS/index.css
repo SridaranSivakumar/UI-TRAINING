@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mathkids-Header {
+    height: 7%;
+    background-color: #a8e187;
+    font-size: 20px;
+}
+
+.circle {
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    padding: 20px;
+    background-color: #00987d;
+    color: white;
+    cursor: pointer;
+}
+
+.Triangle {
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    border-top: 0;
+    border-bottom: 150px solid #ffabdc;
+
+}
+
+.shape-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 40px;
+    color: white;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: #e0e0e0;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+.circleSymbol {
+    display: none;
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    font-weight: 50;
+    text-align: center;
+    margin-left: 34px;
+    margin-top: 26px;
+}
+
+.TriangleSymbol {
+    display: none;
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    font-weight: 50;
+    margin-left: -38px;
+    margin-top: 49px;
+}
+
+.squareSymbol {
+    display: none;
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    font-weight: 50;
+    text-align: center;
+    margin-left: 42px;
+    margin-top: 42px;
+}
+
+.next {
+    display: none;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 44.5%;
+    margin-top: 3%;
+    width: 220px;
+    height: 55px;
+}
+
+.startPage {
+    display: block;
+}
+ .midPage{
+    display: none;
+ }
+.calCircle {
+    margin-top: 15%;
+    margin-left: 40%;
+    color: white;
+}
+
+.calCircle p {
+    font-size: 50px;
+}
+
+.calculateCircle {
+    display: none;
+}
+.calTriangle {
+    margin-top: 15%;
+    margin-left: 33%;
+    color: white;
+}
+
+.calTriangle p {
+    font-size: 50px;
+}
+
+.calculateTriangle {
+    display: none;
+}
+.calSquare{
+    margin-top: 15%;
+    margin-left: 42%;
+    color: white;
+}
+
+.calSquare p {
+    font-size: 50px;
+}
+
+.calculateSquare {
+    display: none;
+}
+
+
+
+.inputBox {
+    margin-top: 2%;
+    margin-left: 31%;
+
+}
+
+#input[type="number"],#tinput[type="number"],#sinput[type="number"]{
+    height: 60px;
+    width: 600px;
+    background-color: black;
+    border: 1px solid white;
+
+}
+
+.circleBtn , .triangleBtn , .squareBtn{
+    margin-top: 2%;
+    margin-left: 43%;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 30px;
+   
+    color: white;
+}
+.endPage{
+    display: none;
+}
+.circleFormula{
+    display: none;
+    margin-left:45%;
+    margin-top: 10%;
+}
+.triangleFormula{
+     display: none;
+     margin-left:45%;
+    margin-top: 10%;
+}
+.squareFormula{
+     display: none;
+     margin-left:45%;
+    margin-top: 10%;
+}
+.shape{
+    color:white;
+    font-size: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.calculationBox{
+    margin-top: 20px;
+    margin-left: -121px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.column1{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding-top:5px;
+    padding-left: 10px;
+    font-size: 25px;
+    flex-direction: column;
+    background-color: #0e62d6;
+    color: white;
+    
+}
+.column2{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    padding-top:5px;
+    padding-left: 10px;
+    font-size: 25px;
+    flex-direction: column;
+    background-color: #0e62d6;
+    color: white;
+    
+}
+
+.circleStartAgain , .triangleStartAgain , .squareStartAgain{
+    margin-top: 60px;
+    margin-left: 1px;
+    width: 200px;
+    height: 45px;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+.startHeading
+{
+   position: absolute;
+   top:25px;
+   left: 20px;
+}
+.endHeading{
+    position: absolute;
+    top:25px;
+    right: 20px;
+    
+}
