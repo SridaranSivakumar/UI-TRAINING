@@ -41,7 +41,7 @@
     margin-bottom: 15px;
     background-color: #4d67b4;
 }
-img{
+.imageDiv img{
     width: 75px;
    height: 75px;
    border-radius: 50px;
@@ -58,4 +58,7 @@ img{
     color: white;
     padding-top: 30px;
     padding-left: 10px;
+}
+input:focus{
+    outline: none;
 }
