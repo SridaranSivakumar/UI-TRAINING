@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.notes-header{
+    display: flex;
+    width: 100%;
+    height:10%;
+    align-items: center;
+    justify-content: space-between;
+    background-color:blue;
+    color: white;
+}
+.delete-btn{
+background-color: red;
+}
+.new-btn{
+ background-color: violet;
+}
+.delete-btn,.new-btn{
+    width:auto;
+    height: 45px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.process-btn{
+    display: flex;
+    margin-right: 40px;
+    width:15%;
+    gap: 20px;
+}
+.notes-container{
+   display: flex;
+   margin-top: 5%;
+   margin-left: 369px;
+   margin-right: 369px;
+    flex-wrap: wrap;
+   
+}
+.notes-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    
+     background-color: brown;
+}
+.notes-row{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+   
+    height: 100%;
+  
+    /* background-color: rgb(42, 165, 134); */
+
+}
+.newbtn-action{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    background-color: black;
+   
+    top:0;
+    gap: 30px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 100px;
+    right: -40%;
+     z-index: 4;
+    transition: right 2s ease-in;
+}
+.New-note{
+    width: 90%;
+    height: 8%;
+    padding: 13px;
+    /* background-color: blueviolet; */
+    color: white;
+    font-size: 25px;
+}
+#input-title{
+    width:90%;
+    padding: 5px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#image-url{
+    width:90%;
+    padding: 5px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#input-content{
+    width: 90%;
+    height: 50%;
+    padding: 5px;
+    word-wrap: wrap;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.icon-row{
+    display: flex;
+    position: absolute;
+    width:50%;
+    height: 5%;
+    bottom: 10px;
+    gap: 15px;
+    /* background-color: blue; */
+}
+.pink-circle,.white-circle,.yellow-circle,.green-circle,.orange-circle{
+    width: 15%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: white;
+}
+.pink-circle{
+    background-color: #ebccec;
+}
+.white-circle{
+    background-color:#a0c4e7 ;
+}
+.yellow-circle{
+    background-color:#ffca72 ;
+}
+.green-circle{
+    background-color:#e4ed91 ;
+}
+.orange-circle{
+    background-color:#ffa78b ;
+}
+.content-add-btn{
+    width: 15%;
+    height: 4%;
+    position: absolute;
+    bottom: 15px;
+    right: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: lightpink;
+    font-size: 20px;
+}
+/* .New-note-layer{
+    position: absolute;
+    
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-color: blue;
+} */
+.notes-title{
+   font-size: 40px;
+   color: white;
+}
+/* .notes-image
+{
+    
+    width: 100%;
+   
+
+} */
+.notes-content{
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.notes-image{
+    width: 100%;
+}
+.back{
+    width: 200px;
+    height: 100px;
+    margin: 10%;
+}
+.circle{
+    position: absolute;
+    width: 57px;
+    height: 54px;
+    border-radius: 50px;
+    background-color: black;
+}
+.notes{
+    width:100%;
+    margin-left: 70px;
+}
+.icon{
+    color: white;
+    position: absolute;
+    top:34px;
+    left:20px;
+    font-size: 30px;
+}
+.notes-header h3{
+    padding-left: 62px;
+    font-size: 30px;
+}
+.content-image{
+    width: 100%;
+    border-radius: 10px;
+}
+.conform-box{
+     display: none;
+    position: absolute;
+    width:35%;
+    height: 30%;
+    left: 30%;
+    top:40%;
+    padding:15px;
+    text-align: center;
+    background-color: black;
+    /* z-index: -10; */
+   
+}
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    padding: 13px;
+    color: white;
+    width: 90%;
+    height: 30%;
+    background-color: #041d2e;
+}
+.cancel-icon{
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.confirm-content{
+    margin-top: 30px;
+    color: white;
+}
+.conform-btn{
+    margin-top: 20px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+} 
